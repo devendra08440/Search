@@ -1,0 +1,29 @@
+.Pagination{
+    display: flex;
+    width: 120px;
+    /* background-color: bisque; */
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination-button button{
+    font-size: 12px;
+    padding: 2px;
+    background-color: lightblue;
+    color: green;
+}
+.pagination-button button:disabled:hover{
+    font-size: 12px;
+    padding: 2px;
+    background-color: lightblue;
+    color: green;
+    cursor:default;
+}
+.pagination-button button:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.page-field-info span{
+    font-size: 14px;
+    font-weight: 500;
+}

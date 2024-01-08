@@ -1,0 +1,15 @@
+.Search .search-field {
+    position: relative;
+    width: 500px;
+    
+}
+.Search .search-field input{
+    font-size: 15px;
+    padding: 5px;
+    width: 96%;
+}
+.Search .search-field i{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+}

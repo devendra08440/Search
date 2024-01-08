@@ -1,0 +1,56 @@
+.search-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px #999;
+}
+
+.field-title .label-title span{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.field-info{
+    display: flex;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.field-info .field-author .label-author span{
+    margin-right: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.field-info .field-comments .label-comments span{
+    font-size: 12px;
+}
+.field-action{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.field-action .link-read-more a{
+    font-size: 14px;
+}
+.field-action .button-remove button{
+    font-size: 12px;
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.753);
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.field-action .button-remove button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
